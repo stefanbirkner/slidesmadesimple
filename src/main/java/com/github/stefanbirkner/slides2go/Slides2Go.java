@@ -1,6 +1,6 @@
 package com.github.stefanbirkner.slides2go;
 
-import com.github.stefanbirkner.slides2go.routes.ShowGist;
+import com.github.stefanbirkner.slides2go.gist.ShowGist;
 
 import static spark.Spark.get;
 import static spark.Spark.setPort;
