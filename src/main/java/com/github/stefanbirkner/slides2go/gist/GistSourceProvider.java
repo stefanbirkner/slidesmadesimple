@@ -9,10 +9,12 @@ import java.net.URL;
  * Provides a gist.
  */
 public class GistSourceProvider {
+    private static final String ENCODING = "UTF-8";
+
     public String getSourceForRequest(GistRequest request) {
         try {
             URL gist = new URL("https://gist.github.com/" + request.user + "/" + request.id + "/raw");
-            return IOUtils.toString(gist);
+            return IOUtils.toString(gist, ENCODING);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
