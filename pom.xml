@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.stefanbirkner</groupId>
@@ -17,8 +18,12 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git://github.com/stefanbirkner/slidesmadesimple.git</connection>
-        <developerConnection>scm:git:git@github.com:stefanbirkner/slidesmadesimple.git</developerConnection>
+        <connection>
+            scm:git:git://github.com/stefanbirkner/slidesmadesimple.git
+        </connection>
+        <developerConnection>
+            scm:git:git@github.com:stefanbirkner/slidesmadesimple.git
+        </developerConnection>
         <url>https://github.com/stefanbirkner/slidesmadesimple/</url>
     </scm>
     <prerequisites>
@@ -61,6 +66,11 @@
             <version>[2.3]</version>
         </dependency>
         <dependency>
+            <groupId>com.sparkjava</groupId>
+            <artifactId>spark-template-mustache</artifactId>
+            <version>[2.3]</version>
+        </dependency>
+        <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>[2.4]</version>
@@ -87,7 +97,6 @@
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-util</artifactId>
             <version>[9.3.5.v20151012]</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.hamcrest</groupId>
