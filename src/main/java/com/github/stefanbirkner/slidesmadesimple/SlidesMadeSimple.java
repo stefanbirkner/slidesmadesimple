@@ -13,8 +13,8 @@ public class SlidesMadeSimple {
         get("/",
                 (request, response) -> new ModelAndView("no model", "startpage.mustache"),
                 new MustacheTemplateEngine());
+        //get("/slides/gist/:user/:id.zip", new ShowGist());
         get("/slides/gist/:user/:id", new ShowGist());
-        get("/slides/gist/:user/:id.zip", new ShowGist());
     }
 
     private static void setPortIfRunningOnHeroku() {
