@@ -1,14 +1,14 @@
-package com.github.stefanbirkner.slides2go;
+package com.github.stefanbirkner.slidesmadesimple;
 
-import com.github.stefanbirkner.slides2go.gist.ShowGist;
+import com.github.stefanbirkner.slidesmadesimple.gist.ShowGist;
 
 import static spark.Spark.get;
 import static spark.Spark.setPort;
 
-public class Slides2Go {
+public class SlidesMadeSimple {
     public static void main(String... args) {
         setPortIfRunningOnHeroku();
-        get("/", (request, response) -> "Slides2Go");
+        get("/", (request, response) -> "Slides made Simple");
         get("/slides/gist/:user/:id", new ShowGist());
     }
 

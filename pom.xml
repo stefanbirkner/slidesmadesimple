@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.stefanbirkner</groupId>
-    <artifactId>slides2go</artifactId>
+    <artifactId>slidesmadesimple</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>slides2go</name>
-    <url>http://stefanbirkner.github.io/slides2go/</url>
+    <url>http://stefanbirkner.github.io/slidesmadesimple/</url>
     <inceptionYear>2014</inceptionYear>
     <licenses>
         <license>
@@ -17,9 +17,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git://github.com/stefanbirkner/slides2go.git</connection>
-        <developerConnection>scm:git:git@github.com:stefanbirkner/slides2go.git</developerConnection>
-        <url>https://github.com/stefanbirkner/slides2go/</url>
+        <connection>scm:git:git://github.com/stefanbirkner/slidesmadesimple.git</connection>
+        <developerConnection>scm:git:git@github.com:stefanbirkner/slidesmadesimple.git</developerConnection>
+        <url>https://github.com/stefanbirkner/slidesmadesimple/</url>
     </scm>
     <prerequisites>
         <maven>3.0.0</maven>

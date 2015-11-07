@@ -1,4 +1,4 @@
-package com.github.stefanbirkner.slides2go.gist;
+package com.github.stefanbirkner.slidesmadesimple.gist;
 
 import org.apache.commons.io.IOUtils;
 

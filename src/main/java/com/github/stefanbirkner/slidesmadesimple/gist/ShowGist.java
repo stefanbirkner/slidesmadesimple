@@ -1,4 +1,4 @@
-package com.github.stefanbirkner.slides2go.gist;
+package com.github.stefanbirkner.slidesmadesimple.gist;
 
 import com.github.stefanbirkner.jmarkdown2deckjs.Configuration;
 import com.github.stefanbirkner.jmarkdown2deckjs.JMarkdown2DeckJs;
