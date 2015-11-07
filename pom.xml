@@ -58,7 +58,7 @@
         <dependency>
             <groupId>com.sparkjava</groupId>
             <artifactId>spark-core</artifactId>
-            <version>[2.0.0]</version>
+            <version>[2.3]</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
@@ -73,20 +73,20 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>[4.11]</version>
+            <version>[4.12]</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>net.sourceforge.htmlunit</groupId>
             <artifactId>htmlunit</artifactId>
-            <version>[2.15]</version>
+            <version>[2.18]</version>
             <scope>test</scope>
         </dependency>
         <!-- Override bad version of transitive dependency of htmlunit -->
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-util</artifactId>
-            <version>[9.0.2.v20130417]</version>
+            <version>[9.3.5.v20151012]</version>
             <scope>test</scope>
         </dependency>
         <dependency>
