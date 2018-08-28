@@ -4,10 +4,7 @@ import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import org.junit.Test;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.is;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class SlidesMadeSimpleTest {
 
@@ -16,7 +13,8 @@ public class SlidesMadeSimpleTest {
         new SlidesMadeSimple().main();
         WebClient webClient = new WebClient();
         HtmlPage page = webClient.getPage("http://127.0.0.1:4567/");
-        assertThat(page.asText(), containsString("Slides made Simple"));
+        assertThat(page.asText())
+                .contains("Slides made Simple");
     }
 
     @Test
